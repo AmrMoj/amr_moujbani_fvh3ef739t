@@ -1,16 +1,12 @@
 package com.anywr.amrmoujbanifvh3ef739m.repository;
 
-import com.anywr.amrmoujbanifvh3ef739m.entities.Classroom;
 import com.anywr.amrmoujbanifvh3ef739m.entities.Student;
-import com.anywr.amrmoujbanifvh3ef739m.entities.Teacher;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Integer> {
